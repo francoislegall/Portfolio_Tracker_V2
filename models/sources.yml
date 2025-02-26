@@ -1,0 +1,14 @@
+sources:  
+  
+  - name: portfolio_tracker
+    schema: portfolio_tracker
+    tables:
+      - name: binance_soldewallet
+      - name: binance_tx_crypto
+      - name: binance_tx_fiat
+      - name: crypto_price
+      - name: evm_soldewallet
+      - name: mexc_soldewallet
+      - name: starknet_soldewallet
+      - name: starknet_soldewallet_dataviz
+      - name: swissborg_tx
