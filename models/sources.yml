@@ -1,7 +1,7 @@
 sources:  
   
   - name: portfolio_tracker
-    schema: portfolio_tracker
+    schema: mysql_suivi_portefeuille
     tables:
       - name: binance_soldewallet
       - name: binance_tx_crypto

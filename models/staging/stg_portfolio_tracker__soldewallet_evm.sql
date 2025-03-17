@@ -8,8 +8,8 @@ evm_soldewallet as (
         plateforme,
         montant,
         type_position,
-        protocole,
-        adresse
+        cast(protocole as string) as protocole,
+        cast(adresse as string) as adresse
 
     from {{ source("portfolio_tracker", "evm_soldewallet") }}
 
